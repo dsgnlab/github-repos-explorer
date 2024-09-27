@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node16",
+    "module": "node16",
+    "types": [
+      "vitest",
+      "@testing-library/jest-dom",
+      "@testing-library/jest-dom/vitest"
+    ],
+  },
+  "include": [],
+}
